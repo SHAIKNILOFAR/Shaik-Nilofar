@@ -1,7 +1,7 @@
-a=int(input("enetr the number_1:"))
-b=int(input("enter the number_2:"))
-if(type(a)=='int'or'float')and(type(b)=='int'or'float'):
-	div=a/b
-	print("the division is",div)
+try:
+a=input("enetr the value of a:"))
+b=input("enter the value of b:"))
+div=float(a)/float(b)
+	print("the result=",div)
 else:
-	print("the number are not the real numbers")
+	print("enter either integer or float")
